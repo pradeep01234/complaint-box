@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg,#1897e6,#1867e6,#fffbfe);
+}
+@keyframes op {
+    0%{background-size: 100%;}
+    100%{background-size: 300%;}
+}
+body:hover{
+animation: op 8s linear infinite alternate;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    padding-left: 60px;
+    padding-top: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+/* @keyframes one {
+    0%{transform: rotateX(0deg) rotateY(180deg);}
+    100%{transform: rotateX(0deg) rotateY(90deg);}
+} */
+
+
+.about{
+    margin: 60px 60px 0px 300px;
+    height: 500px;
+    width: 900px;
+    border-radius: 10px;
+    background-image: url('i.webp');
+    background-size: contain;
+    animation: one 2s infinite alternate;
+}
+
+footer{
+    background-color: rgba(17, 15, 15, 0.932);
+    height: 500px;
+    padding-top: 60px;
+    padding-left: 29%;
+}
+footer div{
+    background-color: rgb(103, 103, 103);
+    border-radius: 10px;
+    height: 400px;
+    width: 600px;
+}
+footer div h3{
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Manrope', sans-serif;
+
+}
+footer div hr{
+    width: 525px;
+    margin-left: 40px;
+    margin-top: 25px;
+    background-color: black;
+    border: 2px solid black;
+    opacity: 0.7;
+}
+footer div img{
+    margin-top: 5%;
+    margin-left: 33%;
+    height: 200px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+footer div h4,footer div h6{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+main p{
+    font-family: 'Manrope', sans-serif;
+    margin-left: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    font-size: 23px;
+}
+main h1{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+nav a:hover{
+    border-bottom: 2px solid rgb(1, 10, 255);
+}

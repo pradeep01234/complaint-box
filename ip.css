@@ -1,0 +1,40 @@
+#name{
+    margin-top: 100px;
+    width: 500px;
+    margin-left: 25%;
+    text-align: center;
+    height: 30px;
+    border-radius: 0px 20px 20px 20px;
+}
+input,select{
+    height: 30px;
+    margin-top: 13px;
+    margin-left: 25%;
+    width: 500px;
+    border-radius: 0px 20px 20px 20px;
+    text-align: center;
+}
+textarea{
+    margin-top: 13px;
+    margin-left: 25%;
+    width: 500px;
+    border-radius: 0px 20px 20px 20px;
+}
+main{
+    width: 983px;
+    margin-left: 286px;
+    background-color: rgba(14, 241, 207, 0.884);
+    padding-top: 25px;
+    margin-top: 48px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+button{
+    margin-top: 10px;
+    margin-left: 35%;
+    width: 280px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 60px;
+    border: 2px solid blue;
+}
